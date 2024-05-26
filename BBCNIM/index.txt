@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balul Bobocilor CNIM</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #d9534f;
+            animation: color-change 2s infinite alternate;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #333;
+        }
+        @keyframes color-change {
+            from { color: #d9534f; }
+            to { color: #5bc0de; }
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        nav a {
+            display: block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Balul Bobocilor CNIM</h1>
+        <h2>(Colegiul Național Ion Maiorescu Giurgiu)</h2>
+    </header>
+    <nav>
+        <a href="balul-2018.html">Balul Bobocilor 2018</a>
+        <a href="balul-2019.html">Balul Bobocilor 2019</a>
+        <a href="balul-2022.html">Balul Bobocilor 2022</a>
+        <a href="balul-2023.html">Balul Bobocilor 2023</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 Colegiul Național Ion Maiorescu din Giurgiu. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
+

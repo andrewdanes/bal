@@ -1,0 +1,142 @@
+Desigur! Adaugăm spațiul pentru galeria foto și menționăm numele fotografului Zens Adrian:
+
+### Pagina pentru Balul Bobocilor 2022 (`balul-2022.html`)
+
+```html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balul Bobocilor 2022 - Colegiul Național Ion Maiorescu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .animated-text {
+            animation: color-change 2s infinite alternate;
+        }
+        @keyframes color-change {
+            from { color: #333; }
+            to { color: #007bff; }
+        }
+        .highlight {
+            font-size: 1.2em;
+            color: #d9534f;
+        }
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .photo-gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .video-link {
+            margin-top: 20px;
+        }
+        .video-link a {
+            color: #d9534f;
+            font-size: 1.1em;
+            text-decoration: none;
+        }
+        .video-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="animated-text">Balul Bobocilor 2022 - Colegiul Național Ion Maiorescu</h1>
+    </header>
+    <nav>
+        <a href="index.html">Înapoi la pagina principală</a>
+    </nav>
+    <section id="despre-bal">
+        <h2>Despre Bal</h2>
+        <p>Preselecțiile pentru Balul Bobocilor 2022 au avut loc la Centrul Cultural Ion Vinea Giurgiu pe data de 15 septembrie la ora 16:30.</p>
+        <p>Vizionați filmarea preselecțiilor aici: <a href="https://www.facebook.com/share/v/AZ9LSdZYXbNcuBEk/" target="_blank">Filmarea Preselecțiilor</a></p>
+        <p>Evenimentul a fost organizat de participanții la Balul Bobocilor 2019, iar bobocii au fost plini de emoții.</p>
+    </section>
+    <section id="echipe">
+        <h2>Echipe</h2>
+        <p>Tema din 2022 a fost <span class="highlight">”Time Travel”</span>, unde echipele au călătorit prin diferite perioade istorice:</p>
+        <ul>
+            <li>Preistoria</li>
+            <li>Era Gregoriană</li>
+            <li>Anii 20</li>
+            <li>Anii 50</li>
+            <li>Anii 70</li>
+            <li>Anii 90</li>
+            <li>Anii 2000</li>
+            <li>Viitorul</li>
+        </ul>
+        <p>Aproximativ 35-40 de boboci talentați au făcut intrarea pe scenă, aducând cu ei surpriză și originalitate.</p>
+    </section>
+    <section id="bal">
+        <h2>Balul Bobocilor 2022</h2>
+        <p>Balul a avut loc pe data de 4 noiembrie 2022 la Ateneul din Giurgiu.</p>
+        <p>Sala a fost arhiplină, iar susținătorii au contribuit la atmosfera de sărbătoare.</p>
+        <p>Vizionați filmarea evenimentului aici: <a href="https://youtu.be/8X3O_K_jcy0?si=OJp9rp4tqZmn0-wW" target="_blank">Filmarea Balului</a></p>
+    </section>
+    <section id="clasament">
+        <h2>Clasament</h2>
+        <ul>
+            <li><strong>Mister Matei Mihale și Miss Miruna Nicolaiescu</strong></li>
+            <li><strong>Premiul 2:</strong> Daniel Iordan și Clara Constantin</li>
+            <li><strong>Premiul 3:</strong> Mister popularitate Mihai Zimnicaru și Miss popularitate Giulia Tabără</li>
+            <li><strong>Locul 4:</strong> Iacob Frîincu și Ana Tamaș</li>
+            <li><strong>Locul 5:</strong> Luca Cioroianu și Maria Dumitrescu</li>
+            <li><strong>Locul 6:</strong> Alexandru Gudanescu și Maria Sima</li>
+            <li><strong>Locul 7:</strong> Alexandru Dogaru și Alexia Popescu</li>
+            <li><strong>Locul 8:</strong> Andrei Giurea și Teodora Neacsu</li>
+        </ul>
+    </section>
+    <section id="afterparty">
+        <h2>After Party</h2>
+        <p>After Party-ul s-a desfășurat la Restaurant Dana V, unde atmosfera a fost întreținută de cântărețul Ian.</p>
+        <p>Distracția a atins cote maxime, lăsându-le bobocilor amintiri de neuitat.</p>
+     </section>
+    <section id="galerie-foto">
+        <h2>Galerie Foto</h2>
+        <div class="photo-gallery">
+            <!-- Adaugă URL-urile imaginilor în src -->
+            <img src="imgg1.jpg" alt="Balul Bobocilor 1">
+            <img src="imgg2.jpg" alt="Balul Bobocilor 2">
+            <img src="imgg3.jpg" alt="Balul Bobocilor 3">
+            <img src="imgg4.jpg" alt="Balul Bobocilor 4">
+            <img src="imgg5.jpg" alt="Balul Bobocilor 5">
+        </div>
+    </section>
+    <footer>
+        <p>Foto
+
+
+
